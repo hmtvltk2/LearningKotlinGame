@@ -1,6 +1,13 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.4.31"
+    ext{
+        kotlin_version = "1.4.31"
+        gdxVersion = '1.9.12'
+        box2DLightsVersion = '1.5'
+        ashleyVersion = '1.7.3'
+        aiVersion = '1.8.2'
+        ktxVersion = '1.9.12-b1'
+    }
     repositories {
         google()
         jcenter()
